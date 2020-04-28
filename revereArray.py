@@ -6,7 +6,6 @@ def reverseArray(array , rev_order):
   for j in range(rev_order):
     d = len(ws)
     ws.insert(d, array[j])
-    
-   print(ws)
+  print(ws)
 sd= [1,2,3,4,5,6,7,8]
 reverseArray(sd,3)
