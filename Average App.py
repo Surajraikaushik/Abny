@@ -11,7 +11,7 @@ for i in range(no_grades):
     grades.append(grade)
 sd= sum(grades)/len(grades)
 
-s =round(sd ,3)
+s=round(sd ,3)
 print(grades)
                   
 print("\n" + str(s))
